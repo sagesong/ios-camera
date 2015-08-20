@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D67712891B85E54D0089E23E /* MyViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D67712881B85E54D0089E23E /* MyViewLayout.m */; };
 		D6F0CF911B8306D300B2EBE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F0CF901B8306D300B2EBE4 /* main.m */; };
 		D6F0CF941B8306D300B2EBE4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F0CF931B8306D300B2EBE4 /* AppDelegate.m */; };
 		D6F0CF971B8306D300B2EBE4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F0CF961B8306D300B2EBE4 /* ViewController.m */; };
@@ -144,6 +145,8 @@
 		D6F0D0AD1B83585400B2EBE4 /* CameraVideoWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = D6F0D0AB1B83585400B2EBE4 /* CameraVideoWriter.h */; };
 		D6F0D0AE1B83585400B2EBE4 /* CameraVideoWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F0D0AC1B83585400B2EBE4 /* CameraVideoWriter.m */; };
 		D6F0D0AF1B83585400B2EBE4 /* CameraVideoWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F0D0AC1B83585400B2EBE4 /* CameraVideoWriter.m */; };
+		D6F0D0C61B844F1800B2EBE4 /* testViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F0D0C51B844F1800B2EBE4 /* testViewController.m */; };
+		D6F0D0C91B84587C00B2EBE4 /* testCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F0D0C81B84587C00B2EBE4 /* testCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -192,6 +195,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D67712871B85E54D0089E23E /* MyViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewLayout.h; sourceTree = "<group>"; };
+		D67712881B85E54D0089E23E /* MyViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewLayout.m; sourceTree = "<group>"; };
 		D6F0CF8B1B8306D300B2EBE4 /* PDSCameraModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDSCameraModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6F0CF8F1B8306D300B2EBE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6F0CF901B8306D300B2EBE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -299,6 +304,10 @@
 		D6F0D0A71B83507500B2EBE4 /* CameraBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraBottomView.m; sourceTree = "<group>"; };
 		D6F0D0AB1B83585400B2EBE4 /* CameraVideoWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraVideoWriter.h; sourceTree = "<group>"; };
 		D6F0D0AC1B83585400B2EBE4 /* CameraVideoWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraVideoWriter.m; sourceTree = "<group>"; };
+		D6F0D0C41B844F1800B2EBE4 /* testViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testViewController.h; sourceTree = "<group>"; };
+		D6F0D0C51B844F1800B2EBE4 /* testViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testViewController.m; sourceTree = "<group>"; };
+		D6F0D0C71B84587C00B2EBE4 /* testCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testCollectionViewCell.h; sourceTree = "<group>"; };
+		D6F0D0C81B84587C00B2EBE4 /* testCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -337,6 +346,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D677128A1B85E5610089E23E /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				D6F0D0C41B844F1800B2EBE4 /* testViewController.h */,
+				D6F0D0C51B844F1800B2EBE4 /* testViewController.m */,
+				D6F0D0C71B84587C00B2EBE4 /* testCollectionViewCell.h */,
+				D6F0D0C81B84587C00B2EBE4 /* testCollectionViewCell.m */,
+				D67712871B85E54D0089E23E /* MyViewLayout.h */,
+				D67712881B85E54D0089E23E /* MyViewLayout.m */,
+			);
+			name = CollectionView;
+			sourceTree = "<group>";
+		};
 		D6F0CF821B8306D300B2EBE4 = {
 			isa = PBXGroup;
 			children = (
@@ -364,6 +386,7 @@
 		D6F0CF8D1B8306D300B2EBE4 /* PDSCameraModule */ = {
 			isa = PBXGroup;
 			children = (
+				D677128A1B85E5610089E23E /* CollectionView */,
 				D6F0CF921B8306D300B2EBE4 /* AppDelegate.h */,
 				D6F0CF931B8306D300B2EBE4 /* AppDelegate.m */,
 				D6F0CF951B8306D300B2EBE4 /* ViewController.h */,
@@ -827,8 +850,11 @@
 				D6F0CFDD1B830A7A00B2EBE4 /* PDSCameraViewController.m in Sources */,
 				D6F0CFDA1B83076E00B2EBE4 /* View+MASAdditions.m in Sources */,
 				D6F0D0A91B83507500B2EBE4 /* CameraBottomView.m in Sources */,
+				D6F0D0C61B844F1800B2EBE4 /* testViewController.m in Sources */,
+				D6F0D0C91B84587C00B2EBE4 /* testCollectionViewCell.m in Sources */,
 				D6F0D0131B832A9E00B2EBE4 /* CameraTopView.m in Sources */,
 				D6F0CFD61B83076E00B2EBE4 /* MASViewAttribute.m in Sources */,
+				D67712891B85E54D0089E23E /* MyViewLayout.m in Sources */,
 				D6F0D00E1B832A7F00B2EBE4 /* CameraOverLayerView.m in Sources */,
 				D6F0CFD31B83076E00B2EBE4 /* MASConstraint.m in Sources */,
 				D6F0CFD41B83076E00B2EBE4 /* MASConstraintMaker.m in Sources */,
@@ -1060,6 +1086,7 @@
 				);
 				INFOPLIST_FILE = PDSCamera/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -1078,6 +1105,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = PDSCamera/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -1137,6 +1165,7 @@
 				D6F0CFB01B8306D300B2EBE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D6F0CFB11B8306D300B2EBE4 /* Build configuration list for PBXNativeTarget "PDSCameraModuleTests" */ = {
 			isa = XCConfigurationList;
@@ -1145,6 +1174,7 @@
 				D6F0CFB31B8306D300B2EBE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D6F0CFFF1B830B0700B2EBE4 /* Build configuration list for PBXNativeTarget "PDSCamera" */ = {
 			isa = XCConfigurationList;
@@ -1153,6 +1183,7 @@
 				D6F0D0011B830B0700B2EBE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D6F0D0031B830B0700B2EBE4 /* Build configuration list for PBXNativeTarget "PDSCameraTests" */ = {
 			isa = XCConfigurationList;
@@ -1161,6 +1192,7 @@
 				D6F0D0051B830B0700B2EBE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

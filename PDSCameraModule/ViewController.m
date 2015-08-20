@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "Masonry.h"
 #import "PDSCameraViewController.h"
+#import "testViewController.h"
 @interface ViewController ()
 
 @end
@@ -36,8 +37,10 @@
 
 - (void)btnClick
 {
-    PDSCameraViewController *camera = [[PDSCameraViewController alloc] init];
-    [self presentViewController:camera animated:YES completion:nil];
+//    PDSCameraViewController *camera = [[PDSCameraViewController alloc] init];
+//    [self presentViewController:camera animated:YES completion:nil];
+    testViewController *test = [[testViewController alloc] init];
+    [self presentViewController:test animated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning {
