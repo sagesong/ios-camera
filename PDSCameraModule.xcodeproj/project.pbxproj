@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		D67712891B85E54D0089E23E /* MyViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D67712881B85E54D0089E23E /* MyViewLayout.m */; };
+		D67712911B8727C00089E23E /* CamrePreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D67712901B8727C00089E23E /* CamrePreviewController.m */; };
+		D67712941B8727DA0089E23E /* CameraOverlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = D67712931B8727DA0089E23E /* CameraOverlayerController.m */; };
 		D6F0CF911B8306D300B2EBE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F0CF901B8306D300B2EBE4 /* main.m */; };
 		D6F0CF941B8306D300B2EBE4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F0CF931B8306D300B2EBE4 /* AppDelegate.m */; };
 		D6F0CF971B8306D300B2EBE4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F0CF961B8306D300B2EBE4 /* ViewController.m */; };
@@ -197,6 +199,10 @@
 /* Begin PBXFileReference section */
 		D67712871B85E54D0089E23E /* MyViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewLayout.h; sourceTree = "<group>"; };
 		D67712881B85E54D0089E23E /* MyViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewLayout.m; sourceTree = "<group>"; };
+		D677128F1B8727C00089E23E /* CamrePreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CamrePreviewController.h; sourceTree = "<group>"; };
+		D67712901B8727C00089E23E /* CamrePreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CamrePreviewController.m; sourceTree = "<group>"; };
+		D67712921B8727DA0089E23E /* CameraOverlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraOverlayerController.h; sourceTree = "<group>"; };
+		D67712931B8727DA0089E23E /* CameraOverlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraOverlayerController.m; sourceTree = "<group>"; };
 		D6F0CF8B1B8306D300B2EBE4 /* PDSCameraModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDSCameraModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6F0CF8F1B8306D300B2EBE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6F0CF901B8306D300B2EBE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -405,6 +411,10 @@
 				D6F0D0A71B83507500B2EBE4 /* CameraBottomView.m */,
 				D6F0D0AB1B83585400B2EBE4 /* CameraVideoWriter.h */,
 				D6F0D0AC1B83585400B2EBE4 /* CameraVideoWriter.m */,
+				D677128F1B8727C00089E23E /* CamrePreviewController.h */,
+				D67712901B8727C00089E23E /* CamrePreviewController.m */,
+				D67712921B8727DA0089E23E /* CameraOverlayerController.h */,
+				D67712931B8727DA0089E23E /* CameraOverlayerController.m */,
 				D6F0CF981B8306D300B2EBE4 /* Main.storyboard */,
 				D6F0CF9B1B8306D300B2EBE4 /* Images.xcassets */,
 				D6F0CF9D1B8306D300B2EBE4 /* LaunchScreen.xib */,
@@ -846,7 +856,9 @@
 				D6F0CF941B8306D300B2EBE4 /* AppDelegate.m in Sources */,
 				D6F0CFE01B830AEB00B2EBE4 /* CameraSessionManage.m in Sources */,
 				D6F0CFD51B83076E00B2EBE4 /* MASLayoutConstraint.m in Sources */,
+				D67712911B8727C00089E23E /* CamrePreviewController.m in Sources */,
 				D6F0CF911B8306D300B2EBE4 /* main.m in Sources */,
+				D67712941B8727DA0089E23E /* CameraOverlayerController.m in Sources */,
 				D6F0CFDD1B830A7A00B2EBE4 /* PDSCameraViewController.m in Sources */,
 				D6F0CFDA1B83076E00B2EBE4 /* View+MASAdditions.m in Sources */,
 				D6F0D0A91B83507500B2EBE4 /* CameraBottomView.m in Sources */,
