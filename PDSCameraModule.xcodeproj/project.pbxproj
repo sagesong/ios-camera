@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B36561B1B88B0FD00166869 /* CellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B36561A1B88B0FD00166869 /* CellModel.m */; };
 		D67712891B85E54D0089E23E /* MyViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D67712881B85E54D0089E23E /* MyViewLayout.m */; };
 		D67712911B8727C00089E23E /* CamrePreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D67712901B8727C00089E23E /* CamrePreviewController.m */; };
 		D67712941B8727DA0089E23E /* CameraOverlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = D67712931B8727DA0089E23E /* CameraOverlayerController.m */; };
@@ -197,6 +198,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0B3656191B88B0FD00166869 /* CellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellModel.h; sourceTree = "<group>"; };
+		0B36561A1B88B0FD00166869 /* CellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellModel.m; sourceTree = "<group>"; };
 		D67712871B85E54D0089E23E /* MyViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewLayout.h; sourceTree = "<group>"; };
 		D67712881B85E54D0089E23E /* MyViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewLayout.m; sourceTree = "<group>"; };
 		D677128F1B8727C00089E23E /* CamrePreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CamrePreviewController.h; sourceTree = "<group>"; };
@@ -361,6 +364,8 @@
 				D6F0D0C81B84587C00B2EBE4 /* testCollectionViewCell.m */,
 				D67712871B85E54D0089E23E /* MyViewLayout.h */,
 				D67712881B85E54D0089E23E /* MyViewLayout.m */,
+				0B3656191B88B0FD00166869 /* CellModel.h */,
+				0B36561A1B88B0FD00166869 /* CellModel.m */,
 			);
 			name = CollectionView;
 			sourceTree = "<group>";
@@ -864,6 +869,7 @@
 				D6F0D0A91B83507500B2EBE4 /* CameraBottomView.m in Sources */,
 				D6F0D0C61B844F1800B2EBE4 /* testViewController.m in Sources */,
 				D6F0D0C91B84587C00B2EBE4 /* testCollectionViewCell.m in Sources */,
+				0B36561B1B88B0FD00166869 /* CellModel.m in Sources */,
 				D6F0D0131B832A9E00B2EBE4 /* CameraTopView.m in Sources */,
 				D6F0CFD61B83076E00B2EBE4 /* MASViewAttribute.m in Sources */,
 				D67712891B85E54D0089E23E /* MyViewLayout.m in Sources */,

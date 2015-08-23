@@ -22,21 +22,29 @@
     if (self = [super initWithFrame:frame]) {
         self.layer.cornerRadius = 5;
         self.layer.masksToBounds = YES;
-        self.backgroundColor = [UIColor blueColor];
-        UIView *view = [[UIView alloc] init];
-        [self addSubview:view];
-        self.iconView = view;
-        view.layer.cornerRadius = 5;
-        view.layer.masksToBounds = YES;
-        [view mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.edges.equalTo(self);
-        }];
-        view.backgroundColor = [UIColor colorWithRed:arc4random() % 255 / 255.0 green:arc4random() % 255 / 255.0 blue:arc4random() % 255 / 255.0 alpha:1];
+        self.backgroundColor = [UIColor whiteColor];
+//        UIView *view = [[UIView alloc] init];
+//        [self addSubview:view];
+//        self.iconView = view;
+//        view.layer.cornerRadius = 5;
+//        view.layer.masksToBounds = YES;
+//        [view mas_makeConstraints:^(MASConstraintMaker *make) {
+//            make.edges.equalTo(self);
+//        }];
+//        view.backgroundColor = [UIColor colorWithRed:arc4random() % 255 / 255.0 green:arc4random() % 255 / 255.0 blue:arc4random() % 255 / 255.0 alpha:1];
         
         
-        UILongPressGestureRecognizer *longTap = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(longPress:)];
-        longTap.allowableMovement = CGFLOAT_MAX;
-        [self addGestureRecognizer:longTap];
+//        UILongPressGestureRecognizer *longTap = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(longPress:)];
+//        longTap.allowableMovement = CGFLOAT_MAX;
+//        [self addGestureRecognizer:longTap];
+        UILabel *lable = [[UILabel alloc] init];
+        lable.textAlignment = NSTextAlignmentCenter;
+//        lable.frame = self.frame;
+        self.lable = lable;
+        [self addSubview:lable];
+        [lable mas_makeConstraints:^(MASConstraintMaker *make) {
+                        make.edges.equalTo(self);
+                    }];
     }
     return self;
 }

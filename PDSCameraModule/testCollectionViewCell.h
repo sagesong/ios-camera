@@ -11,5 +11,5 @@
 @interface testCollectionViewCell : UICollectionViewCell
 
 @property (nonatomic, weak) UICollectionView *collectionView;
-
+@property (nonatomic, weak) UILabel *lable;
 @end
